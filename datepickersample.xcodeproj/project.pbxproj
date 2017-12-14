@@ -10,6 +10,7 @@
 		C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87761FE2A8960063AC41 /* SampleBViewController.swift */; };
 		C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */; };
 		C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */; };
+		C52D87801FE2C2740063AC41 /* SampleDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D877F1FE2C2740063AC41 /* SampleDViewController.swift */; };
 		C5DEE8F81FE258010071938E /* SampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEE8F51FE258010071938E /* SampleAViewController.swift */; };
 		C5DEE8F91FE258010071938E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEE8F71FE258010071938E /* AppDelegate.swift */; };
 		C5DEE8FE1FE258080071938E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DEE8FB1FE258080071938E /* LaunchScreen.storyboard */; };
@@ -21,6 +22,7 @@
 		C52D87761FE2A8960063AC41 /* SampleBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBViewController.swift; sourceTree = "<group>"; };
 		C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCViewController.swift; sourceTree = "<group>"; };
 		C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputLabel.swift; sourceTree = "<group>"; };
+		C52D877F1FE2C2740063AC41 /* SampleDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDViewController.swift; sourceTree = "<group>"; };
 		C5DEE8DE1FE257D80071938E /* datepickersample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datepickersample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DEE8ED1FE257D80071938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5DEE8F51FE258010071938E /* SampleAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				C5DEE8F51FE258010071938E /* SampleAViewController.swift */,
 				C52D87761FE2A8960063AC41 /* SampleBViewController.swift */,
 				C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */,
+				C52D877F1FE2C2740063AC41 /* SampleDViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				C5DEE8F91FE258010071938E /* AppDelegate.swift in Sources */,
 				C5DEE8F81FE258010071938E /* SampleAViewController.swift in Sources */,
 				C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */,
+				C52D87801FE2C2740063AC41 /* SampleDViewController.swift in Sources */,
 				C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */,
 				C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */,
 			);

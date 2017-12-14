@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5DEE8F81FE258010071938E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEE8F51FE258010071938E /* ViewController.swift */; };
+		C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87761FE2A8960063AC41 /* SampleBViewController.swift */; };
+		C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */; };
+		C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */; };
+		C5DEE8F81FE258010071938E /* SampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEE8F51FE258010071938E /* SampleAViewController.swift */; };
 		C5DEE8F91FE258010071938E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEE8F71FE258010071938E /* AppDelegate.swift */; };
 		C5DEE8FE1FE258080071938E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DEE8FB1FE258080071938E /* LaunchScreen.storyboard */; };
 		C5DEE8FF1FE258080071938E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DEE8FC1FE258080071938E /* Assets.xcassets */; };
@@ -15,9 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C52D87761FE2A8960063AC41 /* SampleBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBViewController.swift; sourceTree = "<group>"; };
+		C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCViewController.swift; sourceTree = "<group>"; };
+		C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputLabel.swift; sourceTree = "<group>"; };
 		C5DEE8DE1FE257D80071938E /* datepickersample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datepickersample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DEE8ED1FE257D80071938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5DEE8F51FE258010071938E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5DEE8F51FE258010071938E /* SampleAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAViewController.swift; sourceTree = "<group>"; };
 		C5DEE8F71FE258010071938E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DEE8FB1FE258080071938E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5DEE8FC1FE258080071938E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C52D877A1FE2AC210063AC41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C5DEE8D51FE257D80071938E = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +78,9 @@
 		C5DEE8F31FE258010071938E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C5DEE8F41FE258010071938E /* ViewControllers */,
 				C5DEE8F61FE258010071938E /* AppDelegate */,
+				C5DEE8F41FE258010071938E /* ViewControllers */,
+				C52D877A1FE2AC210063AC41 /* Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -73,7 +88,9 @@
 		C5DEE8F41FE258010071938E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C5DEE8F51FE258010071938E /* ViewController.swift */,
+				C5DEE8F51FE258010071938E /* SampleAViewController.swift */,
+				C52D87761FE2A8960063AC41 /* SampleBViewController.swift */,
+				C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -169,7 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5DEE8F91FE258010071938E /* AppDelegate.swift in Sources */,
-				C5DEE8F81FE258010071938E /* ViewController.swift in Sources */,
+				C5DEE8F81FE258010071938E /* SampleAViewController.swift in Sources */,
+				C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */,
+				C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */,
+				C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

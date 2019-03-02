@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ccP-wq-6bE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ccP-wq-6bE">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -374,7 +373,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textView contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="hrg-Oo-oJh">
-                                                    <rect key="frame" x="274" y="6" width="120" height="33"/>
+                                                    <rect key="frame" x="274" y="5.3333333333333321" width="120" height="33"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="U4l-9c-wyH"/>
@@ -529,6 +528,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="FLR-st-Veu" kind="show" id="Y6E-0y-DzM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="jeq-jj-56E" style="IBUITableViewCellStyleDefault" id="znj-55-9MQ">
+                                        <rect key="frame" x="0.0" y="176" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="znj-55-9MQ" id="oAE-CW-Psb">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="UITextField + InputView without TableView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jeq-jj-56E">
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="43.666666666666664"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pgB-hF-Inr" kind="show" id="Tll-xN-VbG"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -985,6 +1004,68 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="1154" y="3060"/>
+        </scene>
+        <!--Case. 5-->
+        <scene sceneID="Ion-Ve-Gtr">
+            <objects>
+                <viewController id="pgB-hF-Inr" customClass="SampleEViewController" customModule="datepickersample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XfO-nh-kqs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47L-JP-1ud">
+                                <rect key="frame" x="10" y="74" width="394" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldTouch:" destination="pgB-hF-Inr" eventType="touchUpInside" id="ZGO-lc-9qD"/>
+                                    <outlet property="delegate" destination="pgB-hF-Inr" id="cwu-PY-15A"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="47L-JP-1ud" firstAttribute="top" secondItem="Pxm-RK-TbC" secondAttribute="top" constant="10" id="JxG-FM-OgK"/>
+                            <constraint firstItem="47L-JP-1ud" firstAttribute="leading" secondItem="Pxm-RK-TbC" secondAttribute="leading" constant="10" id="lqJ-75-CC6"/>
+                            <constraint firstItem="Pxm-RK-TbC" firstAttribute="trailing" secondItem="47L-JP-1ud" secondAttribute="trailing" constant="10" id="vus-19-I5h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pxm-RK-TbC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Case. 5" id="W6k-PW-CIz"/>
+                    <connections>
+                        <outlet property="birthdayTextField" destination="47L-JP-1ud" id="g4Z-Lr-h6F"/>
+                        <outlet property="datePicker" destination="Cqe-UM-Oa5" id="8QZ-lv-Grm"/>
+                        <outlet property="datePickerContainerView" destination="QiD-W7-UZy" id="wic-25-a3V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBn-yz-6PD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QiD-W7-UZy">
+                    <rect key="frame" x="0.0" y="0.0" width="412" height="261"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cqe-UM-Oa5">
+                            <rect key="frame" x="0.0" y="0.0" width="412" height="261"/>
+                            <date key="date" timeIntervalSinceReferenceDate="534936827.14795798">
+                                <!--2017-12-14 09:33:47 +0000-->
+                            </date>
+                            <locale key="locale" localeIdentifier="ja_JP"/>
+                            <connections>
+                                <action selector="datePickerDidValueChanged:" destination="pgB-hF-Inr" eventType="valueChanged" id="azi-Gp-MDS"/>
+                            </connections>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Cqe-UM-Oa5" secondAttribute="bottom" id="9kb-CP-bsv"/>
+                        <constraint firstItem="Cqe-UM-Oa5" firstAttribute="leading" secondItem="QiD-W7-UZy" secondAttribute="leading" id="Hq9-5M-YTA"/>
+                        <constraint firstAttribute="trailing" secondItem="Cqe-UM-Oa5" secondAttribute="trailing" id="eRM-uX-sUy"/>
+                        <constraint firstItem="Cqe-UM-Oa5" firstAttribute="top" secondItem="QiD-W7-UZy" secondAttribute="top" id="oz5-8C-xN3"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="d9t-Y9-kFq"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="1154" y="3739"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083B3DBA222B496200611DA7 /* SampleEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B3DB9222B496200611DA7 /* SampleEViewController.swift */; };
 		C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87761FE2A8960063AC41 /* SampleBViewController.swift */; };
 		C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */; };
 		C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083B3DB9222B496200611DA7 /* SampleEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEViewController.swift; sourceTree = "<group>"; };
 		C52D87761FE2A8960063AC41 /* SampleBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBViewController.swift; sourceTree = "<group>"; };
 		C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCViewController.swift; sourceTree = "<group>"; };
 		C52D877B1FE2AC3D0063AC41 /* DateInputLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputLabel.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				C52D87761FE2A8960063AC41 /* SampleBViewController.swift */,
 				C52D87781FE2ABD90063AC41 /* SampleCViewController.swift */,
 				C52D877F1FE2C2740063AC41 /* SampleDViewController.swift */,
+				083B3DB9222B496200611DA7 /* SampleEViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				C52D87791FE2ABD90063AC41 /* SampleCViewController.swift in Sources */,
 				C52D87801FE2C2740063AC41 /* SampleDViewController.swift in Sources */,
 				C52D877C1FE2AC3D0063AC41 /* DateInputLabel.swift in Sources */,
+				083B3DBA222B496200611DA7 /* SampleEViewController.swift in Sources */,
 				C52D87771FE2A8960063AC41 /* SampleBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
